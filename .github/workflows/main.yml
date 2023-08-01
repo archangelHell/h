@@ -1,0 +1,11 @@
+import.io.Console;
+public class Scanner {
+    static String name = "";
+
+    public static void main(String[] args) {
+        String name;
+        Console con = System.console();
+        name = can.readLine("Write ut name: ");
+        System.out.println("Hello," +name);
+    }
+}
